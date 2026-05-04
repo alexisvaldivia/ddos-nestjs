@@ -9,8 +9,8 @@ import { ProductsModule } from './products/products.module';
     ThrottlerModule.forRoot({
       throttlers: [
         {
-          ttl: 10000,
-          limit: 3,
+          ttl: 60000,
+          limit: 100,
         },
       ],
     }),
